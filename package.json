@@ -16,7 +16,7 @@
     "stylelint:fix": "stylelint \"src/**/*.{css,scss}\" --fix",
     "steiger": "steiger src",
     "lint": "run-p --continue-on-error oxlint eslint stylelint",
-    "lint:fix:js": "run-s oxlint:fix eslint:fix",
+    "lint:fix:js": "run-s --continue-on-error oxlint:fix eslint:fix",
     "lint:fix": "run-p --continue-on-error stylelint:fix lint:fix:js",
     "check": "run-p --continue-on-error type-check steiger stylelint:fix lint:fix:js"
   },

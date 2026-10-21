@@ -5,14 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e616bf30-3124-48b9-8a2c-81c8ae555b5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout/AppLayout.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout/AppLayout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout/logo-tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/scaffolding.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-workspace.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/config/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/config/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/assert-never.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/date/dayjs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/date/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/date/iso-date.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/ui/HugeIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/ui/IconifyIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/ui/icons.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/ui/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/ui/styles/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/ui/styles/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/ui/styles/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/ui/styles/variables.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,24 +39,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="33" />
+    <option name="cachedIndexableFilesCount" value="44" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dvovas"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dvovas&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dvovas/react-proj1.git",
-    "accountId": "e8bc36cd-7f52-426d-b05f-5abd5aa1ec34"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dvovas/react-habit-tracker.git&quot;,
+    &quot;accountId&quot;: &quot;e8bc36cd-7f52-426d-b05f-5abd5aa1ec34&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -51,31 +70,60 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/dvovas/Documents/HTMLAcademy/react-proj1",
+    "last_opened_file_path": "/Users/dvovas/Documents/HTMLAcademy/react-habit-tracker",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "/Users/dvovas/Documents/HTMLAcademy/react-habit-tracker/node_modules/stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.check.executor": "Run",
+    "npm.lint:fix:js.executor": "Run",
     "npm.npm dev.executor": "Run",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "npm.stylelint:fix.executor": "Run",
+    "settings.editor.selected.configurable": "configurable.stylesheets.stylelint",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/dvovas/Documents/HTMLAcademy/react-proj1/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/dvovas/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.check">
+    <configuration name="check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="check" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint:fix:js" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:fix:js" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -86,6 +134,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="stylelint:fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="stylelint:fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.check" />
+        <item itemvalue="npm.lint:fix:js" />
+        <item itemvalue="npm.stylelint:fix" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -102,7 +167,9 @@
       <option name="presentableId" value="Default" />
       <updated>1790700918867</updated>
       <workItem from="1790700920011" duration="2486000" />
-      <workItem from="1791196599775" duration="35564000" />
+      <workItem from="1791196599775" duration="36274000" />
+      <workItem from="1792582156295" duration="582000" />
+      <workItem from="1792582759430" duration="4734000" />
     </task>
     <servers />
   </component>
