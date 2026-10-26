@@ -5,33 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e616bf30-3124-48b9-8a2c-81c8ae555b5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/layout/AppHeader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/AppHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/AppSidebar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/AppSidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout/usePageTitle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/PageHabits.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/PageHabits.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/PageSettings.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/PageSettings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/PageStatistics.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/PageStatistics.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/date/get-greetings.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout/AppLayout.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout/AppLayout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout/logo-tablet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/scaffolding.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-workspace.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/config/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/config/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/assert-never.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/date/dayjs.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/date/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/date/iso-date.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/ui/HugeIcon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/ui/IconifyIcon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/ui/icons.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/ui/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/ui/styles/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/ui/styles/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/ui/styles/_visually-hidden.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/ui/styles/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/AppLayout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/AppLayout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/AppLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/AppLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/date/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/date/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +29,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="44" />
+    <option name="cachedIndexableFilesCount" value="66" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +76,7 @@
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/dvovas/Documents/HTMLAcademy/react-habit-tracker",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -99,11 +99,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/layout" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.check">
+  <component name="RunManager" selected="npm.npm dev">
     <configuration name="check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -169,7 +170,7 @@
       <workItem from="1790700920011" duration="2486000" />
       <workItem from="1791196599775" duration="36274000" />
       <workItem from="1792582156295" duration="582000" />
-      <workItem from="1792582759430" duration="4734000" />
+      <workItem from="1792582759430" duration="64901000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,50 @@
+@use "@/shared/ui/styles/breakpoints" as bp;
+@use "@/shared/ui/styles/typography" as typo;
+.rail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+  @include bp.only-tablet {
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+.sidebar-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  @include bp.only-tablet {
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+.sidebar-link {
+  background-color: transparent;
+  border: none;
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+  color: var(--content-accent-color);
+  align-items: center;
+  &[aria-current = "page"] {
+    background-color: var(--primary-accent-color);
+    border-radius: 12px;
+    color: var(--primary-color);
+  }
+}
+
+.sidebar-link-text {
+  @include typo.body-m-regular;
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+  @include bp.only-tablet {
+    display: none;
+  }
+}
+

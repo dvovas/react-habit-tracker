@@ -1,4 +1,5 @@
 export { dayjs } from './dayjs.ts';
+export { getGreeting } from './get-greetings.ts';
 export {
   formatToISODate,
   getISOEndOfMonth,

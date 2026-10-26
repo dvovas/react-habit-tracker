@@ -1,0 +1,105 @@
+@use "@/shared/ui/styles/breakpoints" as bp;
+@use "@/shared/ui/styles/typography" as typo;
+
+.app-header {
+  grid-area: header;
+  display: flex;
+  align-items: center;;
+  margin-right: 20px;
+  margin-left: 20px;
+  @include bp.tablet {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+  @include bp.desktop {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+}
+
+.app-header-button {
+  grid-area: sidebar;
+  width: 40px;
+  height: 40px;
+  background-color: var(--card-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  color: var(--content-color);
+
+  @include bp.tablet {
+    display: none;
+  }
+}
+
+.app-header-title {
+  @include typo.heading-m-regular;
+  margin: 0;
+  margin-left: 20px;
+  @include bp.tablet {
+    margin-left: 0;
+  }
+}
+
+.app-header-input {
+  @include typo.body-s-regular;
+  margin-left: auto;
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 37px;
+  padding-right: 70px;
+  border: 1px solid var(--border-color);
+  background-color: var(--card-background-color);
+  ::placeholder {
+    color: var(--soft-content-color);
+  }
+  ::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 12px;
+    top: 12px;
+  }
+  @include bp.only-mobile {
+    display: none;
+  }
+}
+
+.app-header-profile-wrapper {
+  margin-left: 12px;
+  @include bp.only-mobile {
+    margin-left: auto;
+  }
+  display: flex;
+  gap: 10px;
+}
+
+.app-header-profile-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.header-profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  @include bp.only-mobile {
+    display: none;
+  }
+}
+
+.profile-name {
+  @include typo.body-s-regular;
+  color: var(--content-color);
+}
+
+.profile-subscription {
+  @include typo.caption-regular;
+  color: var(--content-accent-color);
+}
